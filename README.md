@@ -7,28 +7,65 @@ The forgery detection tool contained in this repository currently features foren
 - Double JPEG compression
 - Copy-move forgeries
 - Metadata Analysis
-- CFA artifacts
-- Noise variance inconsitencies
-- Error Level Analysis
-- Image Extraction
-- String Extraction
-- For More Detail - [Research Paper](https://journals.grdpublications.com/index.php/ijprse/article/view/537/507)
+
+# Future Scope of the Project: The project can be expanded in several ways:
+
+ 	Deep Learning Integration: Implementing deep learning models like CNNs to improve detection accuracy and recognize more sophisticated forgeries.
+ 	Real-Time Detection: Enhancing the system to analyze images in real- time, making it suitable for surveillance and security applications.
+ 	Improved Feature Extraction: Using advanced feature extraction techniques to detect subtle modifications more effectively.
+ 	Multi-Format Support: Expanding the system to support various image formats and resolutions for broader applicability.
+ 	Mobile and Web Application: Developing a mobile or web-based version to allow easy access and usability across different platforms.
+
+
+
+- For More Detail -
+ [Research Paper]
+
+ 1) https://www.jetir.org/papers/JETIR2312562.pdf
+
+2) https://www.researchgate.net/publication/371957250_IMAGE_FORGERY_DETECTION
+
+3) https://www.mdpi.com/2076-3417/12/6/2851
+
+4) https://bth.diva-portal.org/smash/get/diva2:1643711/FULLTEXT01
+
+5) https://core.ac.uk/download/pdf/229656454.pdf
+
+6) https://www.researchgate.net/publication/Based_Digital_Image_Forgery_Detection_System
+
+7) https://www.ijnrd.org/papers/IJNRD2404235.pdf
+
+8) https://www.ripublication.com/irph/ijert21/ijertv14n5_04.pdf
+
+9) https://www.techscience.com/JCS/v4n2/48755/html
+
+10)https://www.researchgate.net/publication/359153551_Deep_Learning-
+
+11)https://ieeexplore.ieee.org/document/9862034
+
+12)https://journal.ijprse.com/index.php/ijprse/article/view/537/507
+
 
 ## To Run:
 <!-- Place any(JPEG) images that you wish to analyze into the **image** folder Present in the Project directory. -->
 
 Navigate to the **Project** directory:
 ```
-$ cd Image_Manipulation_Detection_System_Python
+$ cd IMG-F-Detection
 ```
 
 Next, run the **detect.py** script, providing the image you wish to evaluate:
 ```
-$ python GUI.py
+$ python GUI.py 
+
+
 ```
 
 Once finished, details on the image will be reported in the terminal. Supplemental images generated during copy-move forgery detection can be found in the output directory.
 
 ##  IMAGES
-<img src="Screenshot/1.jpg">
-<img src="Screenshot/2.jpg">
+<img src="Screenshot/img1.jpg">
+<img src="Screenshot/img2.jpg">
+<img src="Screenshot/img3.jpg">
+<img src="Screenshot/img4.jpg">
+<img src="Screenshot/img5.jpg">
