@@ -1,0 +1,6 @@
+ResolutionUnit: 2
+ExifOffset: 102
+Orientation: 1
+YCbCrPositioning: 1
+XResolution: 96.0
+YResolution: 96.0
